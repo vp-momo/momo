@@ -1,0 +1,70 @@
+.h__border_bottom{
+    border-bottom: 1px solid #dcdcdc;
+}
+.h__mt_7{
+    margin-top: 7px !important;
+}
+.h__mt_10{
+    margin-top: 10px !important;
+}
+.h__mb_10{
+    margin-bottom: 10px !important;
+}
+/*.main-sidebar, .main-sidebar::before{*/
+/*    width: 300px;*/
+/*}*/
+/*.sidebar-mini .main-sidebar .nav-link, .sidebar-mini-md .main-sidebar .nav-link, .sidebar-mini-xs .main-sidebar .nav-link{*/
+/*    width: calc(300px - 0.5rem * 2);*/
+/*}*/
+/*body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header{*/
+/*    margin-left: 300px;*/
+/*}*/
+/*@media (min-width: 992px){*/
+/*    .sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand).sidebar-focused, .sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand):hover {*/
+/*        width: 300px;*/
+/*    }*/
+/*}*/
+/*.sidebar-collapse.sidebar-mini .main-sidebar.sidebar-focused:not(.sidebar-no-expand) .nav-link, .sidebar-collapse.sidebar-mini .main-sidebar:hover:not(.sidebar-no-expand) .nav-link, .sidebar-collapse.sidebar-mini-md .main-sidebar.sidebar-focused:not(.sidebar-no-expand) .nav-link, .sidebar-collapse.sidebar-mini-md .main-sidebar:hover:not(.sidebar-no-expand) .nav-link, .sidebar-collapse.sidebar-mini-xs .main-sidebar.sidebar-focused:not(.sidebar-no-expand) .nav-link, .sidebar-collapse.sidebar-mini-xs .main-sidebar:hover:not(.sidebar-no-expand) .nav-link {*/
+/*    width: calc(300px - 0.5rem * 2);*/
+/*}*/
+.h__title_page{
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+    margin-bottom: 5px;
+}
+.h__required:after{
+    content: '*';
+    color: red;
+}
+.h__group_search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.h__main_table th,
+.h__main_table_all_nw *{
+    white-space: nowrap;
+}
+.h__main_table_all_nw td{
+    vertical-align: middle;
+}
+.h__card_header{
+    padding: 10px;
+    border-bottom: 1px solid #bdbdbd;
+}
+.h__card_title{
+
+}
+.h__txt_game{
+    width: 60px;
+    text-align: center;
+}
+.h__setting_ratio table td{
+    vertical-align: middle;
+}
+.h__brand_link img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 80px;
+}
