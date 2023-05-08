@@ -147,7 +147,7 @@ class MomoSystemController extends Controller
         if($search){
             $transferList->where("phone", $search)
                 ->orWhere("id_momo", $search)
-                ->orWhere("trans_id", $search);
+                ->orWhere("id_tran", $search);
         }
         $this->_data["list"] = $transferList->orderBy('id', "DESC")->paginate($limit);
         $this->_data["total"] = $this->_data["list"]->total();
