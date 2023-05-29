@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Log;
 class VerifyOTPService{
 
     protected $config = [];
-    private $url = 'https://api.momo.vn/backend/otp-app/public/REG_DEVICE_MSG';
+    private $url = 'https://api.momo.vn/backend/otp-app/public/';
 
     public function __construct($config)
     {

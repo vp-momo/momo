@@ -257,7 +257,7 @@ class SendMoneyService{
                 "message" => "Đã xảy ra lỗi khí Chuyển tiền cho " . $to
             );
         }else{
-            $ID = $initMomo["momoMsg"]["replyMsgs"]["0"]["ID"];
+            $ID = $initMomo["momoMsg"]["replyMsgs"]["0"]["id"];
             $confirmMomo = $this->M2MU_CONFIRM($data, $ID);
 //            Log::info("get Result M2MU_CONFIRM", [$confirmMomo]);
             if (isset($confirmMomo['errorCode']) && $initMomo["errorDesc"] != "Lỗi cơ sở dữ liệu. Quý khách vui lòng thử lại sau") {

@@ -28,7 +28,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
          $schedule->command('job:resetLimitTransfer')->dailyAt('00:01');
-         $schedule->command('job:loadBalance')->everyTwoMinutes();
+         $schedule->command('job:loadBalance')->everyFifteenMinutes();
          $schedule->command('job:sendBillError')->everyMinute();
 //         $schedule->command('job:fetchHistory')->everyMinute();
 //         $schedule->command('job:sendMoney')->everyMinute();
